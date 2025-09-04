@@ -43,7 +43,7 @@ const Footer = () => {
               </p>
               <p className="flex items-center">
                 <MailIcon className="w-5 h-5 mr-2 flex-shrink-0" />
-                <span>dhairyaayurveda@gmail.com</span>
+                <span>info.dhairyaayurveda@gmail.com</span>
               </p>
               {/* hello */}
               <a 

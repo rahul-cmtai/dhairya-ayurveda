@@ -69,7 +69,7 @@ const Contact = () => {
                       Email Address
                     </h3>
                     <p className="text-gray-700">
-                      dhairyaayurveda@gmail.com
+                    info.dhairyaayurveda@gmail.com
                     </p>
                   </div>
                 </div>
