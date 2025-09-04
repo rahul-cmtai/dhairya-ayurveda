@@ -1,0 +1,22 @@
+Contact: mailto:security@dhairyaayurveda.in
+Contact: https://www.dhairyaayurveda.in/contact
+Expires: 2026-01-27T00:00:00.000Z
+Encryption: https://www.dhairyaayurveda.in/pgp-key.txt
+Preferred-Languages: en, hi
+Canonical: https://www.dhairyaayurveda.in/.well-known/security.txt
+Policy: https://www.dhairyaayurveda.in/security-policy
+
+# Security Policy
+# We take security seriously. If you discover a security vulnerability,
+# please report it to us as described below.
+
+# Reporting Security Issues
+# Please do not report security vulnerabilities through public GitHub issues.
+# Instead, please report them via email to security@dhairyaayurveda.in
+# or through our contact form at https://www.dhairyaayurveda.in/contact
+
+# What to expect
+# After you submit a report, we will send a response within 48 hours
+# acknowledging receipt of your vulnerability report. After the initial
+# reply to your report, we will keep you informed of the progress
+# towards resolving the issue and full disclosure.

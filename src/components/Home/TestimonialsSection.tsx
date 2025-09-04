@@ -19,7 +19,7 @@ const TestimonialsSection = () => {
       id: 3,
       name: "Boris",
       image: "/images/www/3.jpeg",
-      text: "As someone who values traditional medicine, I appreciate the purity of Aachman's products. Their customer service is excellent, and the results speak for themselves.",
+      text: "As someone who values traditional medicine, I appreciate the purity of Dhairya's products. Their customer service is excellent, and the results speak for themselves.",
     },
     {
       id: 4,
@@ -31,7 +31,7 @@ const TestimonialsSection = () => {
       id: 5,
       name: "Meera Patel",
       image: "/images/www/5.jpeg",
-      text: "The quality of Aachman's products is evident from day one. I've incorporated Tond & Fit into my daily routine and noticed significant improvements in my energy levels.",
+      text: "The quality of Dhairya's products is evident from day one. I've incorporated Tond & Fit into my daily routine and noticed significant improvements in my energy levels.",
     },
     {
       id: 6,
