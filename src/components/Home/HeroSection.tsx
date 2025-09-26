@@ -4,11 +4,11 @@ const HeroSection = () => {
   const desktopSlides = [
     {
       id: 1,
-      image: "/hero1.png",
+      image: "/home-hero.jpeg",
     },
     {
       id: 2,
-      image: "/hero2.png",
+      image: "/home-hero.jpeg",
     },
   ];
 

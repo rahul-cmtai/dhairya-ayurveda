@@ -2,14 +2,14 @@
 import { Link } from "react-router-dom";
 import ProductCard from "../Shop/ProductCard";
 import { ArrowRight } from "lucide-react";
-import TondFitImage from "/public/new/tond.jpeg";
+import TondFitImage from "/public/new/weight-loss.jpeg";
 import hairloss from "/public/images/thyroid.png";
 import pcod from "/public/new/pcod.jpeg";
 import hairfall from "/public/new/hairoil.jpeg";
 import thyroid from "/public/new/thyroid.jpeg";
-import Gastric from "/public/images/www/444.jpeg";
-import Diabetes from "/public/new/diabetes.jpeg";
-import Immunity from "/public/new/healthy.png";
+import Gastric from "/public/new/gastric.jpeg";
+import Diabetes from "/public/new/suger.jpeg";
+import Immunity from "/public/new/immunity-booster.jpeg";
 import bgimage from "/public/images/hg.jpg"
 
 
@@ -18,7 +18,7 @@ const ProductsSection = () => {
     {
       id: 1,
       name: "Tond & Fit",
-      price: 5999,
+      price: 6999,
       rating: 4.5,
       image: TondFitImage,
       isRealProduct: true,
