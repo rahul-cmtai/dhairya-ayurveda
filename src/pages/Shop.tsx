@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import ProductCard from "../components/Shop/ProductCard";
-import TondFitImage from "/public/new/weight-loss.jpeg";
+import TondFitImage from "/public/new/tond2.jpeg";
 import pcod from "/public/new/pcod.jpeg";
 import hairfall from "/public/new/hairoil.jpeg";
 import thyroid from "/public/new/thyroid.jpeg";

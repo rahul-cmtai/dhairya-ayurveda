@@ -22,11 +22,11 @@ const ProductCard = ({
 }: ProductProps) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 flex flex-col">
-      <div className="relative h-48 overflow-hidden">
+      <div className="relative w-full aspect-square overflow-hidden bg-white">
         <img
           src={image}
           alt={name}
-          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+          className="w-full h-full object-contain transition-transform duration-300 hover:scale-105"
         />
       </div>
       <div className="p-5 flex flex-col flex-grow">
@@ -35,19 +35,21 @@ const ProductCard = ({
         </h3>
         <p className="text-gray-600 text-sm mb-4 line-clamp-2">{description}</p>
 
-        {isRealProduct && (
-          <div className="flex justify-between items-center mb-4">
-            <span className="text-lg font-bold text-ayurveda">
-              ₹{price.toLocaleString()}
-            </span>
-            <div className="flex items-center">
-              <span className="text-yellow-400 mr-1">
-                <Star className="h-4 w-4 fill-current" />
+        <div className="mb-4 min-h-[36px] flex items-center">
+          {isRealProduct ? (
+            <div className="flex justify-between items-center w-full">
+              <span className="text-lg font-bold text-ayurveda">
+                ₹{price.toLocaleString()}
               </span>
-              <span className="text-sm text-gray-600">{rating}/5</span>
+              <div className="flex items-center">
+                <span className="text-yellow-400 mr-1">
+                  <Star className="h-4 w-4 fill-current" />
+                </span>
+                <span className="text-sm text-gray-600">{rating}/5</span>
+              </div>
             </div>
-          </div>
-        )}
+          ) : null}
+        </div>
 
         {/* Push button to bottom */}
         <div className="mt-auto">
