@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import ProductCard from "../Shop/ProductCard";
 import { ArrowRight } from "lucide-react";
-import TondFitImage from "/public/new/tond2.jpeg";
+import TondFitImage from "/public/new/weight-loss.jpeg";
 import hairloss from "/public/images/thyroid.png";
 import pcod from "/public/new/pcod.jpeg";
 import hairfall from "/public/new/hairoil.jpeg";

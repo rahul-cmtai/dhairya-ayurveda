@@ -8,19 +8,19 @@ const WhoWeAreSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           
-          <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
+          <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden bg-white">
             {/* Desktop image */}
             <img 
-              src="/new/home2.jpeg"
+              src="/new/tond2.jpeg"
               alt="Ayurvedic herbs and ingredients - Desktop"
-              className="absolute inset-0 w-full h-full object-cover hidden md:block"
+              className="absolute inset-0 w-full h-full object-contain hidden md:block"
             />
 
             {/* Mobile image */}
             <img 
-              src="/new/home2.jpeg"
+              src="/new/tond2.jpeg"
               alt="Ayurvedic herbs and ingredients - Mobile"
-              className="absolute inset-0 w-full h-full object-cover block md:hidden"
+              className="absolute inset-0 w-full h-full object-contain block md:hidden"
             />
           </div>
 
